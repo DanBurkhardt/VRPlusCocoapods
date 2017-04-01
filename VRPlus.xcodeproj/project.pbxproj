@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99D742B1E7339D600A93D7B /* VRPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D74211E7339D600A93D7B /* VRPlus.framework */; };
+		C99D74301E7339D600A93D7B /* VRPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D742F1E7339D600A93D7B /* VRPlusTests.swift */; };
+		C99D74321E7339D600A93D7B /* VRPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = C99D74241E7339D600A93D7B /* VRPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C99D743C1E733A2900A93D7B /* VRPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D743B1E733A2900A93D7B /* VRPlus.swift */; };
+		C99D74441E733A6300A93D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D74431E733A6300A93D7B /* AppDelegate.swift */; };
+		C99D74461E733A6300A93D7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D74451E733A6300A93D7B /* ViewController.swift */; };
+		C99D74491E733A6300A93D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99D74471E733A6300A93D7B /* Main.storyboard */; };
+		C99D744C1E733A6300A93D7B /* VRPlusTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C99D744A1E733A6300A93D7B /* VRPlusTest.xcdatamodeld */; };
+		C99D744E1E733A6300A93D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99D744D1E733A6300A93D7B /* Assets.xcassets */; };
+		C99D74511E733A6300A93D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99D744F1E733A6300A93D7B /* LaunchScreen.storyboard */; };
+		C99D745C1E733A6300A93D7B /* VRPlusTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D745B1E733A6300A93D7B /* VRPlusTestTests.swift */; };
+		C99D74671E733A6400A93D7B /* VRPlusTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D74661E733A6400A93D7B /* VRPlusTestUITests.swift */; };
+		C99D74721E733B1800A93D7B /* VRPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D74211E7339D600A93D7B /* VRPlus.framework */; };
+		C99D74731E733B1800A93D7B /* VRPlus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C99D74211E7339D600A93D7B /* VRPlus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99D742C1E7339D600A93D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99D74181E7339D600A93D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99D74201E7339D600A93D7B;
+			remoteInfo = VRPlus;
+		};
+		C99D74581E733A6300A93D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99D74181E7339D600A93D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99D74401E733A6300A93D7B;
+			remoteInfo = VRPlusTest;
+		};
+		C99D74631E733A6400A93D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99D74181E7339D600A93D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99D74401E733A6300A93D7B;
+			remoteInfo = VRPlusTest;
+		};
+		C99D74741E733B1800A93D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99D74181E7339D600A93D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99D74201E7339D600A93D7B;
+			remoteInfo = VRPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C99D74761E733B1800A93D7B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C99D74731E733B1800A93D7B /* VRPlus.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C99D74211E7339D600A93D7B /* VRPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VRPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99D74241E7339D600A93D7B /* VRPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRPlus.h; sourceTree = "<group>"; };
+		C99D74251E7339D600A93D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99D742A1E7339D600A93D7B /* VRPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99D742F1E7339D600A93D7B /* VRPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPlusTests.swift; sourceTree = "<group>"; };
+		C99D74311E7339D600A93D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99D743B1E733A2900A93D7B /* VRPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRPlus.swift; sourceTree = "<group>"; };
+		C99D74411E733A6300A93D7B /* VRPlusTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRPlusTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99D74431E733A6300A93D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C99D74451E733A6300A93D7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C99D74481E733A6300A93D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C99D744B1E733A6300A93D7B /* VRPlusTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VRPlusTest.xcdatamodel; sourceTree = "<group>"; };
+		C99D744D1E733A6300A93D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C99D74501E733A6300A93D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C99D74521E733A6300A93D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99D74571E733A6300A93D7B /* VRPlusTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPlusTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99D745B1E733A6300A93D7B /* VRPlusTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPlusTestTests.swift; sourceTree = "<group>"; };
+		C99D745D1E733A6300A93D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99D74621E733A6300A93D7B /* VRPlusTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPlusTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99D74661E733A6400A93D7B /* VRPlusTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPlusTestUITests.swift; sourceTree = "<group>"; };
+		C99D74681E733A6400A93D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99D741D1E7339D600A93D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D74271E7339D600A93D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D742B1E7339D600A93D7B /* VRPlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D743E1E733A6300A93D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D74721E733B1800A93D7B /* VRPlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D74541E733A6300A93D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D745F1E733A6300A93D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99D74171E7339D600A93D7B = {
+			isa = PBXGroup;
+			children = (
+				C99D74231E7339D600A93D7B /* VRPlus */,
+				C99D742E1E7339D600A93D7B /* VRPlusTests */,
+				C99D74421E733A6300A93D7B /* VRPlusTest */,
+				C99D745A1E733A6300A93D7B /* VRPlusTestTests */,
+				C99D74651E733A6400A93D7B /* VRPlusTestUITests */,
+				C99D74221E7339D600A93D7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99D74221E7339D600A93D7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99D74211E7339D600A93D7B /* VRPlus.framework */,
+				C99D742A1E7339D600A93D7B /* VRPlusTests.xctest */,
+				C99D74411E733A6300A93D7B /* VRPlusTest.app */,
+				C99D74571E733A6300A93D7B /* VRPlusTestTests.xctest */,
+				C99D74621E733A6300A93D7B /* VRPlusTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99D74231E7339D600A93D7B /* VRPlus */ = {
+			isa = PBXGroup;
+			children = (
+				C99D74241E7339D600A93D7B /* VRPlus.h */,
+				C99D74251E7339D600A93D7B /* Info.plist */,
+				C99D743B1E733A2900A93D7B /* VRPlus.swift */,
+			);
+			path = VRPlus;
+			sourceTree = "<group>";
+		};
+		C99D742E1E7339D600A93D7B /* VRPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				C99D742F1E7339D600A93D7B /* VRPlusTests.swift */,
+				C99D74311E7339D600A93D7B /* Info.plist */,
+			);
+			path = VRPlusTests;
+			sourceTree = "<group>";
+		};
+		C99D74421E733A6300A93D7B /* VRPlusTest */ = {
+			isa = PBXGroup;
+			children = (
+				C99D74431E733A6300A93D7B /* AppDelegate.swift */,
+				C99D74451E733A6300A93D7B /* ViewController.swift */,
+				C99D74471E733A6300A93D7B /* Main.storyboard */,
+				C99D744D1E733A6300A93D7B /* Assets.xcassets */,
+				C99D744F1E733A6300A93D7B /* LaunchScreen.storyboard */,
+				C99D74521E733A6300A93D7B /* Info.plist */,
+				C99D744A1E733A6300A93D7B /* VRPlusTest.xcdatamodeld */,
+			);
+			path = VRPlusTest;
+			sourceTree = "<group>";
+		};
+		C99D745A1E733A6300A93D7B /* VRPlusTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C99D745B1E733A6300A93D7B /* VRPlusTestTests.swift */,
+				C99D745D1E733A6300A93D7B /* Info.plist */,
+			);
+			path = VRPlusTestTests;
+			sourceTree = "<group>";
+		};
+		C99D74651E733A6400A93D7B /* VRPlusTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C99D74661E733A6400A93D7B /* VRPlusTestUITests.swift */,
+				C99D74681E733A6400A93D7B /* Info.plist */,
+			);
+			path = VRPlusTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C99D741E1E7339D600A93D7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D74321E7339D600A93D7B /* VRPlus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C99D74201E7339D600A93D7B /* VRPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99D74351E7339D600A93D7B /* Build configuration list for PBXNativeTarget "VRPlus" */;
+			buildPhases = (
+				C99D741C1E7339D600A93D7B /* Sources */,
+				C99D741D1E7339D600A93D7B /* Frameworks */,
+				C99D741E1E7339D600A93D7B /* Headers */,
+				C99D741F1E7339D600A93D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRPlus;
+			productName = VRPlus;
+			productReference = C99D74211E7339D600A93D7B /* VRPlus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C99D74291E7339D600A93D7B /* VRPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99D74381E7339D600A93D7B /* Build configuration list for PBXNativeTarget "VRPlusTests" */;
+			buildPhases = (
+				C99D74261E7339D600A93D7B /* Sources */,
+				C99D74271E7339D600A93D7B /* Frameworks */,
+				C99D74281E7339D600A93D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99D742D1E7339D600A93D7B /* PBXTargetDependency */,
+			);
+			name = VRPlusTests;
+			productName = VRPlusTests;
+			productReference = C99D742A1E7339D600A93D7B /* VRPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C99D74401E733A6300A93D7B /* VRPlusTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99D74691E733A6400A93D7B /* Build configuration list for PBXNativeTarget "VRPlusTest" */;
+			buildPhases = (
+				C99D743D1E733A6300A93D7B /* Sources */,
+				C99D743E1E733A6300A93D7B /* Frameworks */,
+				C99D743F1E733A6300A93D7B /* Resources */,
+				C99D74761E733B1800A93D7B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99D74751E733B1800A93D7B /* PBXTargetDependency */,
+			);
+			name = VRPlusTest;
+			productName = VRPlusTest;
+			productReference = C99D74411E733A6300A93D7B /* VRPlusTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C99D74561E733A6300A93D7B /* VRPlusTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99D746C1E733A6400A93D7B /* Build configuration list for PBXNativeTarget "VRPlusTestTests" */;
+			buildPhases = (
+				C99D74531E733A6300A93D7B /* Sources */,
+				C99D74541E733A6300A93D7B /* Frameworks */,
+				C99D74551E733A6300A93D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99D74591E733A6300A93D7B /* PBXTargetDependency */,
+			);
+			name = VRPlusTestTests;
+			productName = VRPlusTestTests;
+			productReference = C99D74571E733A6300A93D7B /* VRPlusTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C99D74611E733A6300A93D7B /* VRPlusTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99D746F1E733A6400A93D7B /* Build configuration list for PBXNativeTarget "VRPlusTestUITests" */;
+			buildPhases = (
+				C99D745E1E733A6300A93D7B /* Sources */,
+				C99D745F1E733A6300A93D7B /* Frameworks */,
+				C99D74601E733A6300A93D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99D74641E733A6400A93D7B /* PBXTargetDependency */,
+			);
+			name = VRPlusTestUITests;
+			productName = VRPlusTestUITests;
+			productReference = C99D74621E733A6300A93D7B /* VRPlusTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99D74181E7339D600A93D7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Giganom LLC";
+				TargetAttributes = {
+					C99D74201E7339D600A93D7B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6F9773F85D;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					C99D74291E7339D600A93D7B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6F9773F85D;
+						ProvisioningStyle = Automatic;
+					};
+					C99D74401E733A6300A93D7B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6F9773F85D;
+						ProvisioningStyle = Automatic;
+					};
+					C99D74561E733A6300A93D7B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6F9773F85D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C99D74401E733A6300A93D7B;
+					};
+					C99D74611E733A6300A93D7B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6F9773F85D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C99D74401E733A6300A93D7B;
+					};
+				};
+			};
+			buildConfigurationList = C99D741B1E7339D600A93D7B /* Build configuration list for PBXProject "VRPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99D74171E7339D600A93D7B;
+			productRefGroup = C99D74221E7339D600A93D7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99D74201E7339D600A93D7B /* VRPlus */,
+				C99D74291E7339D600A93D7B /* VRPlusTests */,
+				C99D74401E733A6300A93D7B /* VRPlusTest */,
+				C99D74561E733A6300A93D7B /* VRPlusTestTests */,
+				C99D74611E733A6300A93D7B /* VRPlusTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99D741F1E7339D600A93D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D74281E7339D600A93D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D743F1E733A6300A93D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D74511E733A6300A93D7B /* LaunchScreen.storyboard in Resources */,
+				C99D744E1E733A6300A93D7B /* Assets.xcassets in Resources */,
+				C99D74491E733A6300A93D7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D74551E733A6300A93D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D74601E733A6300A93D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99D741C1E7339D600A93D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D743C1E733A2900A93D7B /* VRPlus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D74261E7339D600A93D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D74301E7339D600A93D7B /* VRPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D743D1E733A6300A93D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D74461E733A6300A93D7B /* ViewController.swift in Sources */,
+				C99D744C1E733A6300A93D7B /* VRPlusTest.xcdatamodeld in Sources */,
+				C99D74441E733A6300A93D7B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D74531E733A6300A93D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D745C1E733A6300A93D7B /* VRPlusTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D745E1E733A6300A93D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D74671E733A6400A93D7B /* VRPlusTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C99D742D1E7339D600A93D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99D74201E7339D600A93D7B /* VRPlus */;
+			targetProxy = C99D742C1E7339D600A93D7B /* PBXContainerItemProxy */;
+		};
+		C99D74591E733A6300A93D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99D74401E733A6300A93D7B /* VRPlusTest */;
+			targetProxy = C99D74581E733A6300A93D7B /* PBXContainerItemProxy */;
+		};
+		C99D74641E733A6400A93D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99D74401E733A6300A93D7B /* VRPlusTest */;
+			targetProxy = C99D74631E733A6400A93D7B /* PBXContainerItemProxy */;
+		};
+		C99D74751E733B1800A93D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99D74201E7339D600A93D7B /* VRPlus */;
+			targetProxy = C99D74741E733B1800A93D7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C99D74471E733A6300A93D7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99D74481E733A6300A93D7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C99D744F1E733A6300A93D7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99D74501E733A6300A93D7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99D74331E7339D600A93D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C99D74341E7339D600A93D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C99D74361E7339D600A93D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6F9773F85D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VRPlus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giganom.VRPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C99D74371E7339D600A93D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6F9773F85D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VRPlus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giganom.VRPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C99D74391E7339D600A93D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6F9773F85D;
+				INFOPLIST_FILE = VRPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giganom.VRPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C99D743A1E7339D600A93D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6F9773F85D;
+				INFOPLIST_FILE = VRPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giganom.VRPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C99D746A1E733A6400A93D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6F9773F85D;
+				INFOPLIST_FILE = VRPlusTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giganom.VRPlusTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C99D746B1E733A6400A93D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6F9773F85D;
+				INFOPLIST_FILE = VRPlusTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giganom.VRPlusTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C99D746D1E733A6400A93D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6F9773F85D;
+				INFOPLIST_FILE = VRPlusTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giganom.VRPlusTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRPlusTest.app/VRPlusTest";
+			};
+			name = Debug;
+		};
+		C99D746E1E733A6400A93D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6F9773F85D;
+				INFOPLIST_FILE = VRPlusTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giganom.VRPlusTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRPlusTest.app/VRPlusTest";
+			};
+			name = Release;
+		};
+		C99D74701E733A6400A93D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6F9773F85D;
+				INFOPLIST_FILE = VRPlusTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giganom.VRPlusTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VRPlusTest;
+			};
+			name = Debug;
+		};
+		C99D74711E733A6400A93D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6F9773F85D;
+				INFOPLIST_FILE = VRPlusTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giganom.VRPlusTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VRPlusTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99D741B1E7339D600A93D7B /* Build configuration list for PBXProject "VRPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99D74331E7339D600A93D7B /* Debug */,
+				C99D74341E7339D600A93D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99D74351E7339D600A93D7B /* Build configuration list for PBXNativeTarget "VRPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99D74361E7339D600A93D7B /* Debug */,
+				C99D74371E7339D600A93D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C99D74381E7339D600A93D7B /* Build configuration list for PBXNativeTarget "VRPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99D74391E7339D600A93D7B /* Debug */,
+				C99D743A1E7339D600A93D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C99D74691E733A6400A93D7B /* Build configuration list for PBXNativeTarget "VRPlusTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99D746A1E733A6400A93D7B /* Debug */,
+				C99D746B1E733A6400A93D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C99D746C1E733A6400A93D7B /* Build configuration list for PBXNativeTarget "VRPlusTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99D746D1E733A6400A93D7B /* Debug */,
+				C99D746E1E733A6400A93D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C99D746F1E733A6400A93D7B /* Build configuration list for PBXNativeTarget "VRPlusTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99D74701E733A6400A93D7B /* Debug */,
+				C99D74711E733A6400A93D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C99D744A1E733A6300A93D7B /* VRPlusTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C99D744B1E733A6300A93D7B /* VRPlusTest.xcdatamodel */,
+			);
+			currentVersion = C99D744B1E733A6300A93D7B /* VRPlusTest.xcdatamodel */;
+			path = VRPlusTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C99D74181E7339D600A93D7B /* Project object */;
+}
